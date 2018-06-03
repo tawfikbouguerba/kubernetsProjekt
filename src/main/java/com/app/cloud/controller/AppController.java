@@ -22,9 +22,8 @@ public class AppController {
 	@RequestMapping(value = { "/" }, method = RequestMethod.GET)
 	public String listEmployees(ModelMap model) {
 
-		//List<Produit> produit = service.findAllProduit();
-		//model.addAttribute("produit", produit);
-		return "Produit";
+		
+		return "welcome";
 	}
 
 	
